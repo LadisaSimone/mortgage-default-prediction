@@ -1,0 +1,20 @@
+# Data and trained models are not versioned (see README)
+data/**
+!data/**/
+!data/**/.gitkeep
+model/*
+models/*
+!model/.gitkeep
+!models/.gitkeep
+*.pkl
+*.joblib
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.env
+
+# OS
+.DS_Store
